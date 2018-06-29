@@ -4,7 +4,7 @@
   "parameters": {
     "adminUsername": {
       "type": "string",
-      "defaultValue": "marc.kean",
+      "defaultValue": "simon.wong",
       "minLength": 1,
       "metadata": {
         "description": "Username for the Virtual Machine."
@@ -32,14 +32,14 @@
     },
     "automationAccountName": {
       "type": "string",
-      "defaultValue": "Marc-Automation",
+      "defaultValue": "Simon-automationAccount",
       "metadata": {
         "description": "Name of your Azure automation account"
       }
     },
     "automationAccountRG": {
       "type": "string",
-      "defaultValue": "Marc-Automation",
+      "defaultValue": "rg-simon",
       "metadata": {
         "description": "Resource Group of your Azure automation account"
       }
@@ -78,21 +78,21 @@
     },
     "vaultName": {
       "type": "string",
-      "defaultValue": "MSMarcVault",
+      "defaultValue": "simon-keyvault",
       "metadata": {
         "description": "Name of Key Vault that has a secret"
       }
     },
     "vaultResourceGroup": {
       "type": "string",
-      "defaultValue": "MSMarcVault",
+      "defaultValue": "rg-simon",
       "metadata": {
         "description": "Resource Group of Key Vault that has a secret"
       }
     },
     "secretUrlWithVersion1": {
       "type": "string",
-      "defaultValue": "https://msmarcvault.vault.azure.net/secrets/MyEncryptionCert/697285956d144d408f87803dbaec9f45",
+      "defaultValue": "https://simon-keyvault.vault.azure.net/secrets/simonCertificate/a19f87ff4c554e16b22f61f2a5e77448",
       "metadata": {
         "description": "Url of the certificate in Key Vault"
       }
